@@ -10,25 +10,7 @@ class App extends Component {
       data: {},
     };
   }
-  //   componentDidMount() {
-  //     fetch("api/lead")
-  //       .then(response => {
-  //         if (response.status > 400) {
-  //           return this.setState(() => {
-  //             return { placeholder: "Something went wrong!" };
-  //           });
-  //         }
-  //         return response.json();
-  //       })
-  //       .then(data => {
-  //         this.setState(() => {
-  //           return {
-  //             data,
-  //             loaded: true
-  //           };
-  //         });
-  //       });
-  //   }
+
   execute_query(topic, section) {
     let url = `query?topic=${topic}`;
     if (section) {
