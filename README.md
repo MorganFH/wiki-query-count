@@ -18,4 +18,6 @@ Run the following commands to setup and run the project:
 - Install required packages for frontend `cd frontend && npm install`
 - Compile frontend with `npm run dev`
 - Start the django server with `cd .. && python manage.py runserver`
-- If necessary, migrate database with `python manage.py migrate`
+- Optionally, migrate the database with `python manage.py migrate` (not necessary for this project)
+
+When the django server is started, the site can be reached at `http://localhost:8000/`.
