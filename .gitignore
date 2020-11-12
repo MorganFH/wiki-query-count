@@ -249,3 +249,6 @@ web.code-workspace
 
 # Jetbrains
 .idea/
+
+# Compiled bundle
+*/static/frontend/main.js
